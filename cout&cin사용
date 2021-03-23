@@ -1,0 +1,21 @@
+//cout 사용예제
+#include<iostream>//input output stream 선언
+int main(){
+  std::cout<<"hello world"<<std::endl;
+   //cout는 출력할 때 사용.
+   //endl은 enter에 사용
+   return 0;
+ }
+ //std:: 생략을위해 namespace를 사용할 수 있으나,현재는 공부하는 단계이기 때문에 사용.
+ //using namespace std  //namespace사용문
+ 
+ 
+ ////////////////////////////////////////
+ 
+ 
+ //cin사용예제
+ #include<iostream>
+ int main(){
+ int a;//C언어와 같이 변수선언.
+ cin>>a;
+}
