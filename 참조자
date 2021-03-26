@@ -1,0 +1,9 @@
+참조자 -> 별명붙이기
+#include<iostream>
+int main(){
+  int a;
+  int &b=a;//참조자 선언.
+  //포인터 느낌
+  //b를 a대신사용 할 수 있음
+  return 0;
+  }
